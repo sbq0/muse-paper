@@ -1,0 +1,37 @@
+\newcommand{\pz}{\hphantom{0}}
+\begin{wraptable}{R}{0.5\textwidth}
+    \vspace{-30pt}
+    \centering
+    \begin{tabular}{c|c|r}
+         \textbf{Model} & \textbf{Resolution} & \textbf{Time}  \\
+         \hline
+        %  Imagen (2.3B) & $64\times64$ & TPUv4 & 7s \\
+         Imagen & \lowressq &  9.1s \\
+         Imagen & $1024\times 1024$ &  13.3s \\
+         %LDM (1B), TPUv4 & $512\times 512$ &  7.4s \\
+         LDM (50 steps) & $512\times 512$ & 3.7s \\
+         LDM (250 steps) & $512\times 512$ & 18.5s \\
+         Parti-3B& $256\times256$ & 6.4s \\
+         \hline
+         \name-3B& \lowressq & 0.5s \\
+         \name-3B& \highressq & 1.3s \\
+    \end{tabular}
+    \vspace{-5pt}
+    \caption{\small Per-batch inference time for several models. Muse, Imagen, and Parti were benchmarked internally on TPUv4 hardware. Stable Diffusion/LDM benchmark from \cite{sdinference}, on A100 GPUs. The ``LDM (250 steps)'' time comes from scaling the 50-step time by 5; 250 steps were used to achieve the FID in \cref{tab:eval_coco}.}
+    \label{tbl:speed}
+    % \begin{tabular}{c|c|c|r}
+    %      \textbf{Model (Params)} & \textbf{Resolution} & \textbf{Hardware} & \textbf{Time/image}  \\
+    %      \hline
+    %     %  Imagen (2.3B) & $64\times64$ & TPUv4 & 7s \\
+    %      Imagen (2.9B) & \lowressq & TPUv4 & 9.0s \\
+    %      Imagen (3.4B) & $1024\times 1024$ & TPUv4 & 13.0s \\
+    %      Stable Diffusion v1.4 (1B) & $512\times 512$ & TPUv4 & 7.4s \\
+    %      Stable Diffusion v1.4 (1B) & $512\times 512$ & A100 & 3.7s \\
+    %      \hline
+    %      \name ~(3B) & \lowressq & TPUv4 & 0.47s \\
+    %      \name ~(3B) & \highressq & TPUv4 & 1.3s \\
+    % \end{tabular}
+    % \vspace{-20pt}
+\end{wraptable}
+
+%\yz{If we can get a speed number for Stable Diffusion using TPUv4, then we can replace the A100 number with that.}

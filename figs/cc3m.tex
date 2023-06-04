@@ -1,0 +1,32 @@
+\begin{table}[t]
+
+\vspace{5pt}
+\label{tab:cc3m}
+\begin{center}{
+  \begin{tabular}{p{50mm} |c | r | r r }
+\toprule
+ \bfseries{Approach} &
+ \bfseries{Model Type} &
+ \bfseries{Params} & 
+ \bfseries{FID} & 
+ \bfseries{CLIP} \\ 
+\toprule
+VQGAN~\cite{esser2021taming} & Autoregressive &  600M & 28.86 & 0.20 \\
+ImageBART~\citep{esser2021imagebart} & Diffusion+Autogressive & 2.8B & 22.61 & 0.23 \\
+LDM-4~\citep{ldm} & Diffusion &645M & 17.01 & 0.24 \\
+RQ-Transformer \citep{lee2022autoregressive} & Autoregressive & 654M & 12.33 & 0.26 \\
+Draft-and-revise \citep{lee2022draft} & Non-autoregressive  & 654M & 9.65 & 0.26 \\
+%\tablefootnote{it is a combination of non-autoregressive and autoregressive since the codes in each position is predicted autoregressively.\han{not sure this footnote is needed, I just added to make it precise, but we can totally delete it}}
+\midrule
+% \rowcolor{LightCyan}
+\textbf{\name (base model)} & Non-autoregressive & 632M & 6.8 & 0.25 \\
+% \rowcolor{LightCyan}
+\textbf{\name (base + super-res)} & Non-autoregressive & 632M + 268M & 6.06 & 0.26 \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+\caption{\small Quantitative evaluation on CC3M \citep{sharma2018conceptual}; all models are trained and evaluated on CC3M.}
+\label{tab:eval_cc3m}
+\vspace{-10pt}
+\end{table}

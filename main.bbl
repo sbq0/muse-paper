@@ -1,0 +1,558 @@
+\begin{thebibliography}{82}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Austin et~al.(2021)Austin, Johnson, Ho, Tarlow, and van~den
+  Berg]{austin2021structured}
+Austin, J., Johnson, D.~D., Ho, J., Tarlow, D., and van~den Berg, R.
+\newblock Structured denoising diffusion models in discrete state-spaces.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  34:\penalty0 17981--17993, 2021.
+
+\bibitem[Brock et~al.(2018)Brock, Donahue, and Simonyan]{brock2018large}
+Brock, A., Donahue, J., and Simonyan, K.
+\newblock Large scale gan training for high fidelity natural image synthesis.
+\newblock \emph{arXiv preprint arXiv:1809.11096}, 2018.
+
+\bibitem[Brooks et~al.(2022)Brooks, Holynski, and
+  Efros]{brooks2022instructpix2pix}
+Brooks, T., Holynski, A., and Efros, A.~A.
+\newblock Instructpix2pix: Learning to follow image editing instructions.
+\newblock \emph{arXiv preprint arXiv:2211.09800}, 2022.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020language}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P.,
+  Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et~al.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems},
+  33:\penalty0 1877--1901, 2020.
+
+\bibitem[Buolamwini \& Gebru(2018)Buolamwini and Gebru]{buolamwini2018gender}
+Buolamwini, J. and Gebru, T.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In \emph{Conference on fairness, accountability and transparency},
+  pp.\  77--91. PMLR, 2018.
+
+\bibitem[Chang et~al.(2022)Chang, Zhang, Jiang, Liu, and Freeman]{maskgit}
+Chang, H., Zhang, H., Jiang, L., Liu, C., and Freeman, W.~T.
+\newblock Maskgit: Masked generative image transformer.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  11315--11325, 2022.
+
+\bibitem[{CompVis}(2022)]{sdgeneration}
+{CompVis}.
+\newblock Stable diffusion colab, 2022.
+\newblock URL
+  \url{https://colab.sandbox.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb#scrollTo=zHkHsdtnry57}.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova]{bert}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock \emph{arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem[Dhariwal \& Nichol(2021)Dhariwal and Nichol]{dhariwal2021diffusion}
+Dhariwal, P. and Nichol, A.
+\newblock Diffusion models beat gans on image synthesis.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  34:\penalty0 8780--8794, 2021.
+
+\bibitem[Donahue \& Simonyan(2019)Donahue and Simonyan]{donahue2019large}
+Donahue, J. and Simonyan, K.
+\newblock Large scale adversarial representation learning.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Dulhanty(2020)]{dulhanty2020issues}
+Dulhanty, C.
+\newblock Issues in computer vision data collection: Bias, consent, and label
+  taxonomy.
+\newblock Master's thesis, University of Waterloo, 2020.
+
+\bibitem[Esser et~al.(2021{\natexlab{a}})Esser, Rombach, Blattmann, and
+  Ommer]{esser2021imagebart}
+Esser, P., Rombach, R., Blattmann, A., and Ommer, B.
+\newblock Imagebart: Bidirectional context with multinomial diffusion for
+  autoregressive image synthesis.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  34:\penalty0 3518--3532, 2021{\natexlab{a}}.
+
+\bibitem[Esser et~al.(2021{\natexlab{b}})Esser, Rombach, and
+  Ommer]{esser2021taming}
+Esser, P., Rombach, R., and Ommer, B.
+\newblock Taming transformers for high-resolution image synthesis.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  12873--12883, 2021{\natexlab{b}}.
+
+\bibitem[Franks \& Waldman(2018)Franks and Waldman]{franks2018sex}
+Franks, M.~A. and Waldman, A.~E.
+\newblock Sex, lies, and videotape: Deep fakes and free speech delusions.
+\newblock \emph{Md. L. Rev.}, 78:\penalty0 892, 2018.
+
+\bibitem[Gafni et~al.(2022)Gafni, Polyak, Ashual, Sheynin, Parikh, and
+  Taigman]{makeascene}
+Gafni, O., Polyak, A., Ashual, O., Sheynin, S., Parikh, D., and Taigman, Y.
+\newblock Make-a-scene: Scene-based text-to-image generation with human priors,
+  2022.
+\newblock URL \url{https://arxiv.org/abs/2203.13131}.
+
+\bibitem[Gal et~al.(2022{\natexlab{a}})Gal, Alaluf, Atzmon, Patashnik, Bermano,
+  Chechik, and Cohen-Or]{gal2022image}
+Gal, R., Alaluf, Y., Atzmon, Y., Patashnik, O., Bermano, A.~H., Chechik, G.,
+  and Cohen-Or, D.
+\newblock An image is worth one word: Personalizing text-to-image generation
+  using textual inversion.
+\newblock \emph{arXiv preprint arXiv:2208.01618}, 2022{\natexlab{a}}.
+
+\bibitem[Gal et~al.(2022{\natexlab{b}})Gal, Patashnik, Maron, Bermano, Chechik,
+  and Cohen-Or]{gal2022stylegan}
+Gal, R., Patashnik, O., Maron, H., Bermano, A.~H., Chechik, G., and Cohen-Or,
+  D.
+\newblock Stylegan-nada: Clip-guided domain adaptation of image generators.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 41\penalty0 (4):\penalty0
+  1--13, 2022{\natexlab{b}}.
+
+\bibitem[Goodfellow et~al.(2020)Goodfellow, Pouget-Abadie, Mirza, Xu,
+  Warde-Farley, Ozair, Courville, and Bengio]{goodfellow2020generative}
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
+  S., Courville, A., and Bengio, Y.
+\newblock Generative adversarial networks.
+\newblock \emph{Communications of the ACM}, 63\penalty0 (11):\penalty0
+  139--144, 2020.
+
+\bibitem[Goyal et~al.(2017)Goyal, Doll{\'a}r, Girshick, Noordhuis, Wesolowski,
+  Kyrola, Tulloch, Jia, and He]{Goyal2017AccurateLM}
+Goyal, P., Doll{\'a}r, P., Girshick, R.~B., Noordhuis, P., Wesolowski, L.,
+  Kyrola, A., Tulloch, A., Jia, Y., and He, K.
+\newblock Accurate, large minibatch {SGD}: Training {I}mage{N}et in 1 hour.
+\newblock \emph{preprint arXiv:1706.0267}, 2017.
+
+\bibitem[He et~al.(2022)He, Chen, Xie, Li, Doll\'ar, and Girshick]{MAE}
+He, K., Chen, X., Xie, S., Li, Y., Doll\'ar, P., and Girshick, R.
+\newblock Masked autoencoders are scalable vision learners.
+\newblock In \emph{cvpr}, pp.\  16000--16009, June 2022.
+
+\bibitem[Hendricks et~al.(2018)Hendricks, Burns, Saenko, Darrell, and
+  Rohrbach]{hendricks2018women}
+Hendricks, L.~A., Burns, K., Saenko, K., Darrell, T., and Rohrbach, A.
+\newblock Women also snowboard: Overcoming bias in captioning models.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision
+  (ECCV)}, pp.\  771--787, 2018.
+
+\bibitem[Hertz et~al.(2022)Hertz, Mokady, Tenenbaum, Aberman, Pritch, and
+  Cohen-Or]{prompttoprompt}
+Hertz, A., Mokady, R., Tenenbaum, J., Aberman, K., Pritch, Y., and Cohen-Or, D.
+\newblock Prompt-to-prompt image editing with cross attention control.
+\newblock \emph{arXiv preprint arXiv:2208.01626}, 2022.
+
+\bibitem[Heusel et~al.(2017)Heusel, Ramsauer, Unterthiner, Nessler, and
+  Hochreiter]{fid}
+Heusel, M., Ramsauer, H., Unterthiner, T., Nessler, B., and Hochreiter, S.
+\newblock Gans trained by a two time-scale update rule converge to a local nash
+  equilibrium.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Ho \& Salimans(2022)Ho and Salimans]{ho2022classifier}
+Ho, J. and Salimans, T.
+\newblock Classifier-free diffusion guidance.
+\newblock \emph{arXiv preprint arXiv:2207.12598}, 2022.
+
+\bibitem[Ho et~al.(2020)Ho, Jain, and Abbeel]{ddpm}
+Ho, J., Jain, A., and Abbeel, P.
+\newblock Denoising diffusion probabilistic models.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  33:\penalty0 6840--6851, 2020.
+
+\bibitem[Ho et~al.(2022)Ho, Salimans, Gritsenko, Chan, Norouzi, and
+  Fleet]{ho2022video}
+Ho, J., Salimans, T., Gritsenko, A., Chan, W., Norouzi, M., and Fleet, D.~J.
+\newblock Video diffusion models.
+\newblock \emph{arXiv preprint arXiv:2204.03458}, 2022.
+
+\bibitem[Hughes et~al.(2021)Hughes, Zhu, and Bednarz]{hughes2021generative}
+Hughes, R.~T., Zhu, L., and Bednarz, T.
+\newblock Generative adversarial networks--enabled human--artificial
+  intelligence collaborative applications for creative and design industries: A
+  systematic review of current approaches and trends.
+\newblock \emph{Frontiers in artificial intelligence}, 4:\penalty0 604234,
+  2021.
+
+\bibitem[Jia et~al.(2021)Jia, Yang, Xia, Chen, Parekh, Pham, Le, Sung, Li, and
+  Duerig]{jia2021scaling}
+Jia, C., Yang, Y., Xia, Y., Chen, Y.-T., Parekh, Z., Pham, H., Le, Q., Sung,
+  Y.-H., Li, Z., and Duerig, T.
+\newblock Scaling up visual and vision-language representation learning with
+  noisy text supervision.
+\newblock In \emph{International Conference on Machine Learning}, pp.\
+  4904--4916. PMLR, 2021.
+
+\bibitem[Jouppi et~al.(2020)Jouppi, Yoon, Kurian, Li, Patil, Laudon, Young, and
+  Patterson]{jouppi2020domain}
+Jouppi, N.~P., Yoon, D.~H., Kurian, G., Li, S., Patil, N., Laudon, J., Young,
+  C., and Patterson, D.
+\newblock A domain-specific supercomputer for training deep neural networks.
+\newblock \emph{Communications of the ACM}, 63\penalty0 (7):\penalty0 67--78,
+  2020.
+
+\bibitem[Karras et~al.(2019)Karras, Laine, and Aila]{karras2019style}
+Karras, T., Laine, S., and Aila, T.
+\newblock A style-based generator architecture for generative adversarial
+  networks.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  4401--4410, 2019.
+
+\bibitem[Kawar et~al.(2022)Kawar, Zada, Lang, Tov, Chang, Dekel, Mosseri, and
+  Irani]{imagic}
+Kawar, B., Zada, S., Lang, O., Tov, O., Chang, H., Dekel, T., Mosseri, I., and
+  Irani, M.
+\newblock Imagic: Text-based real image editing with diffusion models.
+\newblock \emph{arXiv preprint arXiv:2210.09276}, 2022.
+
+\bibitem[Kim et~al.(2022)Kim, Kwon, and Ye]{kim2022diffusionclip}
+Kim, G., Kwon, T., and Ye, J.~C.
+\newblock Diffusionclip: Text-guided diffusion models for robust image
+  manipulation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  2426--2435, 2022.
+
+\bibitem[Kingma et~al.(2021)Kingma, Salimans, Poole, and
+  Ho]{kingma2021variational}
+Kingma, D., Salimans, T., Poole, B., and Ho, J.
+\newblock Variational diffusion models.
+\newblock \emph{Advances in neural information processing systems},
+  34:\penalty0 21696--21707, 2021.
+
+\bibitem[Kingma \& Ba(2015)Kingma and Ba]{KingmaB14}
+Kingma, D.~P. and Ba, J.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock In \emph{{ICLR}}, 2015.
+
+\bibitem[{Lambda Labs}(2022)]{sdinference}
+{Lambda Labs}.
+\newblock All you need is one gpu: Inference benchmark for stable diffusion,
+  2022.
+\newblock URL
+  \url{https://lambdalabs.com/blog/inference-benchmark-stable-diffusion}.
+
+\bibitem[Lee et~al.(2022{\natexlab{a}})Lee, Kim, Kim, Cho, and
+  Han]{lee2022autoregressive}
+Lee, D., Kim, C., Kim, S., Cho, M., and Han, W.-S.
+\newblock Autoregressive image generation using residual quantization.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  11523--11532, 2022{\natexlab{a}}.
+
+\bibitem[Lee et~al.(2022{\natexlab{b}})Lee, Kim, Kim, Cho, and
+  Han]{lee2022draft}
+Lee, D., Kim, C., Kim, S., Cho, M., and Han, W.-S.
+\newblock Draft-and-revise: Effective image generation with contextual
+  rq-transformer.
+\newblock \emph{arXiv preprint arXiv:2206.04452}, 2022{\natexlab{b}}.
+
+\bibitem[Lezama et~al.(2022)Lezama, Chang, Jiang, and Essa]{lezama2022improved}
+Lezama, J., Chang, H., Jiang, L., and Essa, I.
+\newblock Improved masked image generation with token-critic.
+\newblock In \emph{European Conference on Computer Vision}, pp.\  70--86.
+  Springer, 2022.
+
+\bibitem[Li et~al.(2022)Li, Chang, Mishra, Zhang, Katabi, and
+  Krishnan]{li2022mage}
+Li, T., Chang, H., Mishra, S.~K., Zhang, H., Katabi, D., and Krishnan, D.
+\newblock Mage: Masked generative encoder to unify representation learning and
+  image synthesis.
+\newblock \emph{arXiv preprint arXiv:2211.09117}, 2022.
+
+\bibitem[Lin et~al.(2014)Lin, Maire, Belongie, Hays, Perona, Ramanan,
+  Doll{\'a}r, and Zitnick]{coco}
+Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D.,
+  Doll{\'a}r, P., and Zitnick, C.~L.
+\newblock Microsoft coco: Common objects in context.
+\newblock In \emph{European conference on computer vision}, pp.\  740--755.
+  Springer, 2014.
+
+\bibitem[Loshchilov \& Hutter(2017)Loshchilov and Hutter]{Loshchilov2017SGDRSG}
+Loshchilov, I. and Hutter, F.
+\newblock {SGDR}: Stochastic gradient descent with warm restarts.
+\newblock In \emph{iclr}, 2017.
+
+\bibitem[Lu et~al.(2022)Lu, Zhou, Bao, Chen, Li, and Zhu]{Zhu2022dpm}
+Lu, C., Zhou, Y., Bao, F., Chen, J., Li, C., and Zhu, J.
+\newblock Dpm-solver: {A} fast {ODE} solver for diffusion probabilistic model
+  sampling in around 10 steps.
+\newblock \emph{arXiv preprint arXiv:2206.00927}, 2022.
+
+\bibitem[Meng et~al.(2021)Meng, Song, Song, Wu, Zhu, and Ermon]{meng2021sdedit}
+Meng, C., Song, Y., Song, J., Wu, J., Zhu, J.-Y., and Ermon, S.
+\newblock Sdedit: Image synthesis and editing with stochastic differential
+  equations.
+\newblock \emph{arXiv preprint arXiv:2108.01073}, 2021.
+
+\bibitem[Merullo et~al.(2022)Merullo, Castricato, Eickhoff, and
+  Pavlick]{merullo2022linearly}
+Merullo, J., Castricato, L., Eickhoff, C., and Pavlick, E.
+\newblock Linearly mapping from image to text space.
+\newblock \emph{arXiv preprint arXiv:2209.15162}, 2022.
+
+\bibitem[Midjourney(2022)]{midjourney}
+Midjourney.
+\newblock Midjourney, 2022.
+\newblock URL \url{https://www.midjourney.com}.
+
+\bibitem[Mokady et~al.(2022)Mokady, Hertz, Aberman, Pritch, and
+  Cohen-Or]{nulltext2022}
+Mokady, R., Hertz, A., Aberman, K., Pritch, Y., and Cohen-Or, D.
+\newblock Null-text inversion for editing real images using guided diffusion
+  models, 2022.
+\newblock URL \url{https://arxiv.org/abs/2211.09794}.
+
+\bibitem[{NegPrompt}(2022)]{negprompt}
+{NegPrompt}.
+\newblock Negative prompt, 2022.
+\newblock URL
+  \url{https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Negative-prompt}.
+
+\bibitem[Nichol et~al.(2021)Nichol, Dhariwal, Ramesh, Shyam, Mishkin, McGrew,
+  Sutskever, and Chen]{glide}
+Nichol, A., Dhariwal, P., Ramesh, A., Shyam, P., Mishkin, P., McGrew, B.,
+  Sutskever, I., and Chen, M.
+\newblock Glide: Towards photorealistic image generation and editing with
+  text-guided diffusion models.
+\newblock \emph{arXiv preprint arXiv:2112.10741}, 2021.
+
+\bibitem[Patashnik et~al.(2021)Patashnik, Wu, Shechtman, Cohen-Or, and
+  Lischinski]{patashnik2021styleclip}
+Patashnik, O., Wu, Z., Shechtman, E., Cohen-Or, D., and Lischinski, D.
+\newblock Styleclip: Text-driven manipulation of stylegan imagery.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pp.\  2085--2094, 2021.
+
+\bibitem[Paullada et~al.(2021)Paullada, Raji, Bender, Denton, and
+  Hanna]{paullada2021data}
+Paullada, A., Raji, I.~D., Bender, E.~M., Denton, E., and Hanna, A.
+\newblock Data and its (dis) contents: A survey of dataset development and use
+  in machine learning research.
+\newblock \emph{Patterns}, 2\penalty0 (11):\penalty0 100336, 2021.
+
+\bibitem[Prabhu \& Birhane(2020)Prabhu and Birhane]{prabhu2020large}
+Prabhu, V.~U. and Birhane, A.
+\newblock Large image datasets: A pyrrhic win for computer vision?
+\newblock \emph{arXiv preprint arXiv:2006.16923}, 2020.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever,
+  et~al.]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et~al.
+\newblock Language models are unsupervised multitask learners.
+\newblock \emph{OpenAI blog}, 1\penalty0 (8):\penalty0 9, 2019.
+
+\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, Ramesh, Goh, Agarwal,
+  Sastry, Askell, Mishkin, Clark, et~al.]{clip}
+Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
+  G., Askell, A., Mishkin, P., Clark, J., et~al.
+\newblock Learning transferable visual models from natural language
+  supervision.
+\newblock In \emph{International Conference on Machine Learning}, pp.\
+  8748--8763. PMLR, 2021.
+
+\bibitem[Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena,
+  Zhou, Li, Liu, et~al.]{t5xxl}
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou,
+  Y., Li, W., Liu, P.~J., et~al.
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
+\newblock \emph{J. Mach. Learn. Res.}, 21\penalty0 (140):\penalty0 1--67, 2020.
+
+\bibitem[Ramesh et~al.(2021)Ramesh, Pavlov, Goh, Gray, Voss, Radford, Chen, and
+  Sutskever]{dalle1}
+Ramesh, A., Pavlov, M., Goh, G., Gray, S., Voss, C., Radford, A., Chen, M., and
+  Sutskever, I.
+\newblock Zero-shot text-to-image generation, 2021.
+\newblock URL \url{https://arxiv.org/abs/2102.12092}.
+
+\bibitem[Ramesh et~al.(2022)Ramesh, Dhariwal, Nichol, Chu, and Chen]{dalle2}
+Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., and Chen, M.
+\newblock Hierarchical text-conditional image generation with clip latents.
+\newblock \emph{arXiv preprint arXiv:2204.06125}, 2022.
+
+\bibitem[Rolfe(2016)]{rolfe2016discrete}
+Rolfe, J.~T.
+\newblock Discrete variational autoencoders.
+\newblock \emph{arXiv preprint arXiv:1609.02200}, 2016.
+
+\bibitem[Rombach et~al.(2022)Rombach, Blattmann, Lorenz, Esser, and Ommer]{ldm}
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B.
+\newblock High-resolution image synthesis with latent diffusion models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  10684--10695, 2022.
+
+\bibitem[Ruiz et~al.(2022)Ruiz, Li, Jampani, Pritch, Rubinstein, and
+  Aberman]{dreambooth}
+Ruiz, N., Li, Y., Jampani, V., Pritch, Y., Rubinstein, M., and Aberman, K.
+\newblock Dreambooth: Fine tuning text-to-image diffusion models for
+  subject-driven generation.
+\newblock \emph{arXiv preprint arXiv:2208.12242}, 2022.
+
+\bibitem[Saharia et~al.(2022)Saharia, Chan, Saxena, Li, Whang, Denton,
+  Ghasemipour, Ayan, Mahdavi, Lopes, et~al.]{imagen}
+Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour,
+  S. K.~S., Ayan, B.~K., Mahdavi, S.~S., Lopes, R.~G., et~al.
+\newblock Photorealistic text-to-image diffusion models with deep language
+  understanding.
+\newblock \emph{arXiv preprint arXiv:2205.11487}, 2022.
+
+\bibitem[Salimans \& Ho(2022)Salimans and Ho]{salimans2022distillation}
+Salimans, T. and Ho, J.
+\newblock Progressive distillation for fast sampling of diffusion models.
+\newblock In \emph{{ICLR}}, 2022.
+
+\bibitem[Scheuerman et~al.(2021)Scheuerman, Hanna, and
+  Denton]{scheuerman2021datasets}
+Scheuerman, M.~K., Hanna, A., and Denton, E.
+\newblock Do datasets have politics? disciplinary values in computer vision
+  dataset development.
+\newblock \emph{Proceedings of the ACM on Human-Computer Interaction},
+  5\penalty0 (CSCW2):\penalty0 1--37, 2021.
+
+\bibitem[Schuhmann et~al.(2021)Schuhmann, Vencu, Beaumont, Kaczmarczyk, Mullis,
+  Katta, Coombes, Jitsev, and Komatsuzaki]{laion}
+Schuhmann, C., Vencu, R., Beaumont, R., Kaczmarczyk, R., Mullis, C., Katta, A.,
+  Coombes, T., Jitsev, J., and Komatsuzaki, A.
+\newblock Laion-400m: Open dataset of clip-filtered 400 million image-text
+  pairs.
+\newblock \emph{arXiv preprint arXiv:2111.02114}, 2021.
+
+\bibitem[Schuhmann et~al.(2022)Schuhmann, Beaumont, Vencu, Gordon, Wightman,
+  Cherti, Coombes, Katta, Mullis, Wortsman, et~al.]{schuhmann2022laion}
+Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M.,
+  Coombes, T., Katta, A., Mullis, C., Wortsman, M., et~al.
+\newblock Laion-5b: An open large-scale dataset for training next generation
+  image-text models.
+\newblock \emph{arXiv preprint arXiv:2210.08402}, 2022.
+
+\bibitem[Sharma et~al.(2018)Sharma, Ding, Goodman, and
+  Soricut]{sharma2018conceptual}
+Sharma, P., Ding, N., Goodman, S., and Soricut, R.
+\newblock Conceptual captions: A cleaned, hypernymed, image alt-text dataset
+  for automatic image captioning.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pp.\  2556--2565,
+  2018.
+
+\bibitem[Shazeer \& Stern(2018)Shazeer and Stern]{shazeer2018adafactor}
+Shazeer, N. and Stern, M.
+\newblock Adafactor: Adaptive learning rates with sublinear memory cost.
+\newblock In \emph{International Conference on Machine Learning}, pp.\
+  4596--4604. PMLR, 2018.
+
+\bibitem[Srinivasan \& Uchino(2021)Srinivasan and Uchino]{srinivasan2021biases}
+Srinivasan, R. and Uchino, K.
+\newblock Biases in generative art: A causal look from the lens of art history.
+\newblock In \emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, pp.\  41--51, 2021.
+
+\bibitem[Steed \& Caliskan(2021)Steed and Caliskan]{steed2021image}
+Steed, R. and Caliskan, A.
+\newblock Image representations learned with unsupervised pre-training contain
+  human-like biases.
+\newblock In \emph{Proceedings of the 2021 ACM conference on fairness,
+  accountability, and transparency}, pp.\  701--713, 2021.
+
+\bibitem[Tao et~al.(2020)Tao, Tang, Wu, Jing, Bao, and Xu]{dfgan}
+Tao, M., Tang, H., Wu, F., Jing, X.-Y., Bao, B.-K., and Xu, C.
+\newblock Df-gan: A simple and effective baseline for text-to-image synthesis,
+  2020.
+\newblock URL \url{https://arxiv.org/abs/2008.05865}.
+
+\bibitem[Van Den~Oord et~al.(2017)Van Den~Oord, Vinyals, et~al.]{vqvae}
+Van Den~Oord, A., Vinyals, O., et~al.
+\newblock Neural discrete representation learning.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, {\L}., and Polosukhin, I.
+\newblock Attention is all you need.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Wang et~al.(2022)Wang, Saharia, Montgomery, Pont-Tuset, Noy,
+  Pellegrini, Onoe, Laszlo, Fleet, Soricut, Baldridge, Norouzi, Anderson, and
+  Chan]{imageneditor}
+Wang, S., Saharia, C., Montgomery, C., Pont-Tuset, J., Noy, S., Pellegrini, S.,
+  Onoe, Y., Laszlo, S., Fleet, D.~J., Soricut, R., Baldridge, J., Norouzi, M.,
+  Anderson, P., and Chan, W.
+\newblock Imagen editor and editbench: Advancing and evaluating text-guided
+  image inpainting, 2022.
+\newblock URL \url{https://arxiv.org/abs/2212.06909}.
+
+\bibitem[Whittaker et~al.(2020)Whittaker, Kietzmann, Kietzmann, and
+  Dabirian]{whittaker2020all}
+Whittaker, L., Kietzmann, T.~C., Kietzmann, J., and Dabirian, A.
+\newblock “all around me are synthetic faces”: the mad world of
+  ai-generated media.
+\newblock \emph{IT Professional}, 22\penalty0 (5):\penalty0 90--99, 2020.
+
+\bibitem[Xia et~al.(2022)Xia, Zhang, Yang, Xue, Zhou, and Yang]{xia2022gan}
+Xia, W., Zhang, Y., Yang, Y., Xue, J.-H., Zhou, B., and Yang, M.-H.
+\newblock Gan inversion: A survey.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 2022.
+
+\bibitem[Xu et~al.(2017)Xu, Zhang, Huang, Zhang, Gan, Huang, and He]{attngan}
+Xu, T., Zhang, P., Huang, Q., Zhang, H., Gan, Z., Huang, X., and He, X.
+\newblock Attngan: Fine-grained text to image generation with attentional
+  generative adversarial networks.
+\newblock \emph{CoRR}, abs/1711.10485, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.10485}.
+
+\bibitem[Ye et~al.(2021)Ye, Yang, Takac, Sunderraman, and Ji]{dmgan-cl}
+Ye, H., Yang, X., Takac, M., Sunderraman, R., and Ji, S.
+\newblock Improving text-to-image synthesis using contrastive learning, 2021.
+\newblock URL \url{https://arxiv.org/abs/2107.02423}.
+
+\bibitem[Yu et~al.(2021)Yu, Li, Koh, Zhang, Pang, Qin, Ku, Xu, Baldridge, and
+  Wu]{yu2021vector}
+Yu, J., Li, X., Koh, J.~Y., Zhang, H., Pang, R., Qin, J., Ku, A., Xu, Y.,
+  Baldridge, J., and Wu, Y.
+\newblock Vector-quantized image modeling with improved vqgan.
+\newblock \emph{arXiv preprint arXiv:2110.04627}, 2021.
+
+\bibitem[Yu et~al.(2022)Yu, Xu, Koh, Luong, Baid, Wang, Vasudevan, Ku, Yang,
+  Ayan, et~al.]{parti}
+Yu, J., Xu, Y., Koh, J.~Y., Luong, T., Baid, G., Wang, Z., Vasudevan, V., Ku,
+  A., Yang, Y., Ayan, B.~K., et~al.
+\newblock Scaling autoregressive models for content-rich text-to-image
+  generation.
+\newblock \emph{arXiv preprint arXiv:2206.10789}, 2022.
+
+\bibitem[Zhang et~al.(2021)Zhang, Koh, Baldridge, Lee, and
+  Yang]{zhang2021cross}
+Zhang, H., Koh, J.~Y., Baldridge, J., Lee, H., and Yang, Y.
+\newblock Cross-modal contrastive learning for text-to-image generation.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  833--842, 2021.
+
+\bibitem[Zhao et~al.(2021)Zhao, Zhang, Chen, Metaxas, and Zhang]{hit}
+Zhao, L., Zhang, Z., Chen, T., Metaxas, D.~N., and Zhang, H.
+\newblock Improved transformer for high-resolution gans, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.07631}.
+
+\bibitem[Zhou et~al.(2021)Zhou, Zhang, Chen, Li, Tensmeyer, Yu, Gu, Xu, and
+  Sun]{lafite}
+Zhou, Y., Zhang, R., Chen, C., Li, C., Tensmeyer, C., Yu, T., Gu, J., Xu, J.,
+  and Sun, T.
+\newblock {LAFITE:} towards language-free training for text-to-image
+  generation.
+\newblock \emph{CoRR}, abs/2111.13792, 2021.
+\newblock URL \url{https://arxiv.org/abs/2111.13792}.
+
+\bibitem[Zhu et~al.(2019)Zhu, Pan, Chen, and Yang]{zhu2019dm}
+Zhu, M., Pan, P., Chen, W., and Yang, Y.
+\newblock Dm-gan: Dynamic memory generative adversarial networks for
+  text-to-image synthesis.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  5802--5810, 2019.
+
+\end{thebibliography}

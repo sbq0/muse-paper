@@ -1,0 +1,25 @@
+%auto-ignore
+\begin{table}[ht!]
+\tablestyle{6pt}{1.02}
+\scriptsize
+\begin{tabular}{y{107}|y{150}}
+Configuration & Value \\
+\shline
+LowRes Encoder Transformer Layers & 16 \\
+Number of Transformer layers & 32 \\
+Transformer Hidden Dimension & 1024 \\
+Transformer MLP Dimension & 4096 \\ 
+Optimizer & AdaFactor \citep{shazeer2018adafactor} \\
+Base learning rate & 1e-4 \\
+Weight decay  & 0.045 \\
+Optimizer momentum & $\beta_1{=}0.9, \beta_2{=}0.96$ \\
+Batch size & 512 \\
+Learning rate schedule & cosine decay \citep{Loshchilov2017SGDRSG} \\
+Warmup steps & 5000 \\
+Training steps & 1M
+
+\end{tabular}
+\vspace{-.5em}
+\caption{Configuration and training hyperparameters for the Super-Resolution Model.}
+\label{tab:superres} \vspace{-.5em}
+\end{table}

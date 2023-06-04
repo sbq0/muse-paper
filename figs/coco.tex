@@ -1,0 +1,42 @@
+
+% \parbox{.6\textwidth}{
+
+\begin{table}[t]
+
+\vspace{5pt}
+\centering
+\label{tab:zero_shot_mscoco}
+\begin{tabular}{p{50mm}|c| r | r r}
+\toprule
+\multirow{2}{*}{\bfseries{Approach}} & \multirow{2}{*}{\bfseries{Model Type}} &
+\multirow{2}{*}{\bfseries{Params}} &
+\multirow{2}{*}{\bfseries{FID-30K}} &
+\bfseries{Zero-shot} \\
+& & & & \bfseries{FID-30K} \\
+\midrule
+AttnGAN \citep{attngan} & GAN & & 35.49 & - \\
+DM-GAN \citep{zhu2019dm} & GAN & & 32.64 & - \\
+DF-GAN \citep{dfgan} &  GAN & & 21.42 & - \\
+DM-GAN + CL \citep{dmgan-cl} &  GAN & & 20.79 & - \\
+XMC-GAN \citep{zhang2021cross} & GAN & & 9.33 & - \\
+LAFITE \citep{lafite} & GAN & & 8.12 & - \\
+Make-A-Scene \citep{makeascene} & Autoregressive & & 7.55 & -\\
+\midrule
+DALL-E \citep{dalle1} & Autoregressive & & - & 17.89  \\
+LAFITE \citep{lafite} & GAN & & - & 26.94 \\
+LDM \citep{ldm}  & Diffusion & & -  & 12.63 \\
+GLIDE \citep{glide} & Diffusion & & -  & 12.24 \\
+DALL-E 2 \citep{dalle2} & Diffusion & & -  & 10.39 \\
+Imagen-3.4B \citep{imagen}  & Diffusion & & -  & 7.27 \\ % eyeballed from Figure 4, took highest clip corresponding to the lowest FID
+
+Parti-3B \citep{parti} & Autoregressive & & -  & 8.10 \\
+Parti-20B \citep{parti} & Autoregressive & & 3.22  & 7.23\\
+\midrule
+% \rowcolor{LightCyan}
+\textbf{\name-3B} & Non-Autoregressive & & - & \cocofid \\
+\bottomrule
+\end{tabular}
+
+\caption{\small Quantitative evaluation of FID and CLIP score (where available) on MS-COCO \citep{coco} for $256\times256$ image resolution. \name~ achieves a CLIP score of 0.32, higher than the score of 0.27 reported in Imagen. Other papers in the table above did not report a CLIP score.}
+\label{tab:eval_coco}
+\end{table}

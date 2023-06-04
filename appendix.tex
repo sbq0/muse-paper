@@ -1,0 +1,23 @@
+%auto-ignore
+\section{Appendix.}
+
+\subsection{Base Model Configurations}
+\label{sec:base_configs}
+Our base model configuration for our largest model of size 3B parameters is given in \tabb{basemodel}.
+
+\input{base_model_config}
+
+\subsection{VQGAN Configurations}
+\label{sec:vqgan_configs}
+
+\input{vqgan_config}
+
+\textbf{VQGAN Architecture}: Our VQGAN architecture is similar to the previous work \citep{esser2021taming}. It consists of several residual blocks, downsample(encoder) and upsample (decoder) blocks. The main difference is that we remove the non-local block to make the encoder and decoder fully convolutional to support different image sizes. In the base VQGAN model, we apply 2 residual blocks in each resolution and the base channel dimension is 128. For the finetuned decoder, we apply 4 residual blocks in each resolution and we also make the base channel dimension to be 256. 
+
+\input{figs/fine_tune_decoder/finetune_decoder}
+
+
+\subsection{Super Resolution Configurations}
+\label{sec:superres_configs}
+
+\input{superres_config}

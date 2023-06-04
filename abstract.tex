@@ -1,0 +1,27 @@
+%auto-ignore
+\begin{abstract}
+We present \name, 
+% a large scale Transformer-based text-to-image generation model that achieves state of the art image generation performance while being upto an order of magnitude more efficient than diffusion or autoregressive models. 
+a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than diffusion or autoregressive models.
+% \name~ is trained on a Transformer encoder backbone shared between image and text, and a masked prediction loss for text and image token prediction.
+% \name~ is conditioned on a pre-trained large language model (LLM). Image tokens are extracted from a pre-trained vector quantized model. 
+%
+\name~is trained on a masked modeling task in discrete token space: given the text embedding extracted from a pre-trained large language model (LLM), \name~is trained to predict randomly masked image tokens.
+% This setup enables efficient parallel decoding, greatly reducing the number of steps to generate an image conditioned on a text prompt, leading to significant inference-time efficiencies \dilip{mention runtime?}. 
+%
+Compared to pixel-space diffusion models, such as Imagen and DALL-E~2, \name~is significantly more efficient due to the use of discrete tokens and requiring fewer sampling iterations; 
+% it can be thought of as a discrete diffusion process with the absorbing state (\mask)\jarred{is this detail important for the abstract?}. 
+compared to autoregressive models, such as Parti, \name~is more efficient due to the use of parallel decoding.
+%
+The use of a pre-trained LLM enables fine-grained language understanding, translating to high-fidelity image generation and the understanding of visual concepts such as objects, their spatial relationships, pose, cardinality etc.
+%
+%Our 632M parameter model achieves a new SOTA on CC3M, with an FID score of \ccfidbase. 
+Our 900M parameter model achieves a new SOTA on CC3M, with an FID score of \ccfidsr. % 632M-base+268M-sr
+The \name~3B parameter model achieves an FID of \cocofid~on zero-shot COCO evaluation, along with a CLIP score of \cococlip. 
+Muse also directly enables a number of image editing applications without the need to fine-tune or invert the model: inpainting, outpainting, and mask-free editing. More results are available at \url{http://\website}.
+%We present a number of image editing applications which are enabled directly by our model with no fine-tuning: inpainting, outpainting, and mask-free editing. 
+%
+% \kevin{I suggest modifying abstract to focus on the difference from prior work. Why not use this text:
+% Compared to Imagen or Dall-E2  which are built on cascaded pixel-space diffusion models, \name~ is significantly more efficient due to the use of discrete tokens; it can be thought of as a discrete diffusion process with the absorbing state (\mask). Compared to Parti, which is an autoregressive model, \name~ is more efficient due to the use of parallel decoding.
+% } \huiwen{ I like it. Modified. }
+\end{abstract}

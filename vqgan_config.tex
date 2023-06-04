@@ -1,0 +1,26 @@
+%auto-ignore
+\begin{table}[ht!]
+\tablestyle{6pt}{1.02}
+\scriptsize
+\begin{tabular}{y{107}|y{150}}
+Configuration & Value \\
+\shline
+
+Perceptual loss weight & 0.05 \\
+Adversarial loss weight & 0.1 \\
+Codebook size & 8192 \\
+Optimizer & Adam \citep{KingmaB14} \\
+Discriminator learning rate & 1e-4 \\
+Generator learning rate & 1e-4 \\
+Weight decay  & 1e-4 \\
+Optimizer momentum & $\beta_1{=}0.9, \beta_2{=}0.99$ \\
+Batch size & 256 \\
+Learning rate schedule & cosine decay \citep{Loshchilov2017SGDRSG} \\
+Warmup steps \citep{Goyal2017AccurateLM} & 10000 \\
+Training steps & 1M
+
+\end{tabular}
+\vspace{-.5em}
+\caption{Configuration and training hyperparameters for VQGAN.}
+\label{tab:vqgan} \vspace{-.5em}
+\end{table}
